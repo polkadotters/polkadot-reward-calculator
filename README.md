@@ -8,7 +8,7 @@ There is currently no `pip` package for this project. Therefore you need to clon
 yourself
 
 ```
-git clone 
+git clone https://github.com/polkadotters/polkadot-reward-calculator.git
 pip install flask
 pip install flask-restx
 pip install requests
@@ -25,6 +25,14 @@ curl 127.0.0.1:5000/rewards?network=kilt&address=4pnAJ41mGHGDKCGBGY2zzu1hfvPasPk
 There are only two parameters right now
  - `address`
  - `network`
+
+### Supported networks
+- Polkadot
+- Kusama
+- Kilt
+- Moonbeam
+- Moonriver
+- Astar
 
 There's also a simple error checking which verifies that both parameters are present and network is supported.
 
