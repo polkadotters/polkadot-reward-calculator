@@ -1,4 +1,4 @@
-# Validaton rewards
+# Validation/staking rewards
 
 This is a simple web server that calculates monthly rewards for Polkadot, Kusama and various parachains. 
 
