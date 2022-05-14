@@ -32,3 +32,5 @@ There's also a simple error checking which verifies that both parameters are pre
 
 Authentication is done simply via `X-API-KEY` header which has to be present in all requests. In order to set this key
 on the sever, you need to export `REWARDS_API_KEY` variable that will represent this authentication key for the clients.
+
+You also need to export `SUBSCAN_API_KEY` that is needed in order to access Subscan API.
